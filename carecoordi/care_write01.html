@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>케어닥 - 돌보미신청하기 STEP 1</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="./css/style.css" />
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/commons.js"></script>
+</head>
+<body id="main">
+<div id="wrap">
+<div id="fixedbg"></div>
+
+<header id="header">
+	<div class="inner">
+		<div class="logo">
+			<a href="/"><img src="./images/common/logo.png"/></a>
+		</div>
+		<div class="menu">
+			<a>시설 찾기</a>
+			<a>돌보미 찾기</a>
+			<a>서비스 소개</a>
+			<a>케어코디 지원</a>
+			<a>회사소개</a>
+			<a>나의 정보</a>
+		</div>
+		<a class="m_nav"><img src="./images/common/menu.svg"/></a>
+		<a class="m_close"><img src="./images/common/close.png"/></a>
+		<a class="m_member"><img src="./images/common/login.png" class="login"/></a>
+	</div>
+</header>
+
+<nav id="allMenu">
+	<div class="top">
+		<span class="txt no">로그인 후 서비스를 이용해주세요.</span>
+		<button type="button" class="log_btn">간편 로그인</button>
+	</div>
+	<div class="menu">
+		<div><a class="m">시설찾기</a></div>
+		<div><a class="m">케어코디</a></div>
+		<div><a class="m">서비스 소개</a></div>
+		<div><a class="m">케어코디 지원</a></div>
+		<div><a class="m">회사소개</a></div>
+		<div class="y"><a class="m">나의 정보</a>
+			<div class="sub">
+				<a>개인 정보 관리</a>
+				<a>시설 문의내역</a>
+			</div>
+		</div>
+	</div>
+	<div class="sns">
+		<a><img src="./images/common/blog.png"/></a>
+		<a><img src="./images/common/facebook.png"/></a>
+		<a><img src="./images/common/youtube.png"/></a>
+		<a><img src="./images/common/instagram.png"/></a>
+		<a><img src="./images/common/tistory.png"/></a>
+	</div>
+</nav>
+
+
+<section id="care_write">
+	<div class="status_m">
+		<div class="page_nm">
+			<a onclick="history.back();" class="prev"><i class="fas fa-chevron-left"></i></a>
+			<h2 class="tit">돌보미 신청하기</h2>
+		</div>
+		<div class="page_location">
+			<div class="sub_nm">
+				<h2 class="p active">STEP 1 돌봄 유형</h2>
+				<h2 class="p">STEP 2 돌봄 일정</h2>
+				<h2 class="p">STEP 3 돌봄 장소</h2>
+				<h2 class="p">STEP 4 돌봄 주소</h2>
+				<h2 class="p">STEP 5 휴대폰 인증</h2>
+				<h2 class="p">STEP 6 신청 완료</h2>
+			</div>
+			<div class="scroll">
+				<span class="s active">STEP 1</span>
+				<span class="s">STEP 2</span>
+				<span class="s">STEP 3</span>
+				<span class="s">STEP 4</span>
+				<span class="s">STEP 5</span>
+				<span class="s">STEP 6</span>
+			</div>
+		</div>
+	</div>
+	<div class="status_v">
+		<div class="col-b b1 active">
+			<h2>STEP 1<br/>돌봄 유형</h2>
+			<!--<div class="step1">시간제 돌봄</div>-->
+			<button type="button" class="btn btn01">입력중</button>
+			<div class="line"></div>
+		</div>
+
+		<div class="col-b b2">
+			<h2>STEP 2<br/>돌봄 일정</h2>
+			<!--<div class="step2">
+				2021년 6월 23일 ~ 2021년 6월 24일<br/>
+				오전 9시 부터<br/>
+				4시간<br/>
+				연장 가능성 있음
+			</div>-->
+			<button type="button" class="btn btn01" onclick="location.href='care_write02.html'">입력</button>
+			<div class="line"></div>
+		</div>
+		<div class="col-b b3">
+			<h2>STEP 3<br/>돌봄 장소</h2>
+			<!--<div class="step3">
+				자택<br/>
+				방문 요양 원함<br/>
+				남성 / 진단명 없음 / 등급 모름
+			</div>-->
+			<button type="button" class="btn btn01" onclick="location.href='care_write03.html'">입력</button>
+			<div class="line"></div>
+		</div>
+		<div class="col-b b4">
+			<h2>STEP 4<br/>돌봄 주소</h2>
+			<!--<div class="step3">
+				서울특별시 강남구 논현로 290 도곡경남아파트 101동 201호
+			</div>-->
+			<button type="button" class="btn btn01" onclick="location.href='care_write04.html'">입력</button>
+			<div class="line"></div>
+		</div>
+	</div>
+	<div class="cont">
+		<div class="inner">
+			<div class="step1">
+				<form>
+					<div class="box">
+						<h2 class="tit">돌봄 유형을 선택해주세요.</h2>
+						<input type="hidden" id="type">
+						<div class="btns1 box-btn">
+							<button type="button" class="btn" onclick="btn_val('type','24시간 상주',0)">
+								<img src="./images/sub/care_clock24.png" class="b"/>
+								<img src="./images/sub/care_clock24w.png" class="w"/>
+								24시간 상주
+							</button>
+							<button type="button" class="btn"  onclick="btn_val('type','시간제 돌봄',1)">
+								<img src="./images/sub/care_alram.png" class="b" />
+								<img src="./images/sub/care_alramw.png" class="w"/>
+								시간제 돌봄
+							</button>
+						</div>
+						<div class="btns2">
+							<button type="button" class="btn full-btn" onclick="location.href='care_write02.html'">다음</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer">
+	<a class="top"><img src="./images/common/top.png"/></a>
+	<div class="inner">
+		<div class="flogo">
+			<a><img src="./images/common/foot_logo.png"/></a>
+		</div>
+		<div class="ftels">
+			<div class="left">
+				<div class="tels">케어닥 고객센터 1833 - 9861</div>
+				<div class="time">운영시간 : 오전 10:00 ~ 오후 18:00</div>
+			</div>
+			<div class="right">
+				<a><img src="./images/common/blog.png"/></a>
+				<a><img src="./images/common/facebook.png"/></a>
+				<a><img src="./images/common/youtube.png"/></a>
+				<a><img src="./images/common/instagram.png"/></a>
+				<a><img src="./images/common/tistory.png"/></a>
+			</div>
+		</div>
+		<div class="fmenu">
+			<a>제휴 및 제안</a><span>|</span><a>회사소개</a><br class="m_show"/><span class="m_hide">|</span><a>개인정보처리방침</a><span>|</span><a>이용약관</a>
+		</div>
+		<div class="copyright">
+			<div>(주)케어닥<span>|</span></div><div>대표 : 박재병<span>|</span></div><div>사업자등록번호 : 708-81-00933<span>|</span></div><div>개인정보관리책임자 : 최상훈<span>|</span></div><div>서울특별시 강남구 테헤란로 77길 11-10, 9층</div><br/>
+			<div>부산광역시 해운대구 센텀동로 41 부산정보산업진흥원 3층<span>|</span></div><div>고객문의 : 대표번호 1833-9861  운영시간 오전 10시 ~ 오후 6시)<span>|</span></div><div>ⓒ 2019 Caredoc Corp.</div>
+		</div>
+		<div class="w_box">주식회사 케어닥은 대한민국 비급여 의료시장에서 소비자와 돌보미(간병인)간의 정보 비대칭을 해소하여 투명한 비급여 돌봄(간병) 시장을 만들기 위해 어르신 돌보미
+		서비스를 제공하고 있습니다. 주식회사 케어닥은 직업소개업에 등록된 알선 업체(제2019-3220237-14-5-00055호)로 구인회원과 케어코디(돌보미)의 알선...더보기</div>
+	</div>
+</footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>케어닥 - 시설 문의내역</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="./css/style.css" />
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./js/commons.js"></script>
+<script src="./js/qna.js"></script>
+</head>
+<body id="bg">
+<div id="wrap">
+<div id="fixedbg"></div>
+
+<header id="header">
+	<div class="inner">
+		<div class="logo">
+			<a href="/"><img src="./images/common/logo.png"/></a>
+		</div>
+		<div class="menu">
+			<a>시설 찾기</a>
+			<a>돌보미 찾기</a>
+			<a>서비스 소개</a>
+			<a>케어코디 지원</a>
+			<a>회사소개</a>
+			<a>나의 정보</a>
+		</div>
+		<a class="m_nav"><img src="./images/common/menu.svg"/></a>
+		<a class="m_close"><img src="./images/common/close.png"/></a>
+		<a class="m_member"><img src="./images/common/login.png" class="login"/></a>
+	</div>
+</header>
+
+<nav id="allMenu">
+	<div class="top">
+		<span class="txt no">로그인 후 서비스를 이용해주세요.</span>
+		<button type="button" class="log_btn">간편 로그인</button>
+	</div>
+	<div class="menu">
+		<div><a class="m">시설찾기</a></div>
+		<div><a class="m">케어코디</a></div>
+		<div><a class="m">서비스 소개</a></div>
+		<div><a class="m">케어코디 지원</a></div>
+		<div><a class="m">회사소개</a></div>
+		<div class="y"><a class="m">나의 정보</a>
+			<div class="sub">
+				<a>개인 정보 관리</a>
+				<a>시설 문의내역</a>
+			</div>
+		</div>
+	</div>
+	<div class="sns">
+		<a><img src="./images/common/blog.png"/></a>
+		<a><img src="./images/common/facebook.png"/></a>
+		<a><img src="./images/common/youtube.png"/></a>
+		<a><img src="./images/common/instagram.png"/></a>
+		<a><img src="./images/common/tistory.png"/></a>
+	</div>
+</nav>
+
+
+<section id="myinfo">
+	<div class="m_sub">
+		<div class="col-blue">
+			<div class="txt">
+				<h2 class="tit">김진실 회원님<br/>환영합니다.</h2>
+				<span class="line"></span>
+			</div>
+			<div class="btns">
+				<button type="button" class="btn btn-logout">로그아웃</button>
+			</div>
+		</div>
+		<div class="col-btns">
+			<button type="button" class="btn btn01">개인 정보 관리</button>
+			<button type="button" class="btn btn01 over">시설 문의내역</button>
+		</div>
+	</div>
+	<div class="m_con">
+		<div class="inner">
+			<div class="col-top">
+				<h2 class="tit">문의내역</h2>
+				<button type="button" class="m-search"><i class="fas fa-search"></i></button>
+				<button type="button" class="m-search-hide"><i class="fas fa-times"></i></button>
+				<div class="searchs">
+					<input type="search">
+					<button type="button" class="btn-search"><i class="fas fa-search"></i></button>
+				</div>
+			</div>
+			<div class="col-date">
+				<button type="button" class="btn-date">오늘</button>
+				<button type="button" class="btn-date">7일간</button>
+				<button type="button" class="btn-date">30일간</button>
+				<div class="input-date">
+					<input type="text" id="fr-date" placeholder="날짜 선택">
+					<span>~</span>
+					<input type="text" id="to-date" placeholder="날짜 선택">
+				</div>
+			</div>
+			<div class="col-list">
+				<table cellspacing="0">
+					<thead>
+						<tr>
+							<th class="t_01 m_hide">시설명</th>
+							<th class="t_02">제목</th>
+							<th class="t_03 m_hide">작성일</th>
+							<th class="t_03 m_hide">답변상태</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="t_01 m_hide">메디움강남요양병원</td>
+							<td class="t_02"><a href="#">시설방문이용에 대하여</a>
+								<div class="m_show">메디움강남요양병원<span class="bar"></span>2021-06-05<span class="bar"></span><span class="ok">답변완료</span></div>
+							</td>
+							<td class="t_03 m_hide">2021-06-05</td>
+							<td class="t_03 m_hide"><span class="ok">답변완료</span></td>
+						</tr>
+						<tr>
+							<td class="t_01 m_hide">의료법인참예원의료재단</td>
+							<td class="t_02"><a href="#">시설방문이용에 대하여</a>
+								<div class="m_show">메디움강남요양병원<span class="bar"></span>2021-06-05<span class="bar"></span><span class="no">미답변</span></div>
+							</td>
+							<td class="t_03 m_hide">2021-06-05</td>
+							<td class="t_03 m_hide"><span class="no">미답변</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer">
+	<a class="top"><img src="./images/common/top.png"/></a>
+	<div class="inner">
+		<div class="flogo">
+			<a><img src="./images/common/foot_logo.png"/></a>
+		</div>
+		<div class="ftels">
+			<div class="left">
+				<div class="tels">케어닥 고객센터 1833 - 9861</div>
+				<div class="time">운영시간 : 오전 10:00 ~ 오후 18:00</div>
+			</div>
+			<div class="right">
+				<a><img src="./images/common/blog.png"/></a>
+				<a><img src="./images/common/facebook.png"/></a>
+				<a><img src="./images/common/youtube.png"/></a>
+				<a><img src="./images/common/instagram.png"/></a>
+				<a><img src="./images/common/tistory.png"/></a>
+			</div>
+		</div>
+		<div class="fmenu">
+			<a>제휴 및 제안</a><span>|</span><a>회사소개</a><br class="m_show"/><span class="m_hide">|</span><a>개인정보처리방침</a><span>|</span><a>이용약관</a>
+		</div>
+		<div class="copyright">
+			<div>(주)케어닥<span>|</span></div><div>대표 : 박재병<span>|</span></div><div>사업자등록번호 : 708-81-00933<span>|</span></div><div>개인정보관리책임자 : 최상훈<span>|</span></div><div>서울특별시 강남구 테헤란로 77길 11-10, 9층</div><br/>
+			<div>부산광역시 해운대구 센텀동로 41 부산정보산업진흥원 3층<span>|</span></div><div>고객문의 : 대표번호 1833-9861  운영시간 오전 10시 ~ 오후 6시)<span>|</span></div><div>ⓒ 2019 Caredoc Corp.</div>
+		</div>
+		<div class="w_box">
+			주식회사 케어닥은 대한민국 비급여 의료시장에서 소비자와 돌보미(간병인) 간의 정보 비대칭을 해소하여 투명한 비급여 돌봄(간병) 시장을 만들기 위해 어르신 돌보미 서비스를 제공하고 있습니다. 주식회사 케어닥은 직업소개업에 등록된 알선 업체(제2019-3220237-14-5-00055호)로 구인회원과 케어코디(돌보미)의 알선 ...더보기
+		</div>
+	</div>
+</footer>
+
+</div>
+
+</body>
+</html>

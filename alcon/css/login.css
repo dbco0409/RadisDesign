@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url("common.css");
+
+#wrap{width:100%; height:100vh; min-height:500px; margin:auto; overflow:hidden; display:table;     table-layout: fixed;}
+#wrap .login_box{display:table-cell; width:30%; vertical-align:middle; }
+#wrap .login_box .logo{margin-bottom:150px; text-align:center;}
+#wrap .login_box .logo img{width:280px; height:77px; }
+#wrap .login_frm{width:90%; margin:auto; }
+#wrap .login_frm label{font-size:14px; font-weight:600; color:#495058; }
+#wrap .login_frm .f{display:table; width:100%; }
+#wrap .login_frm .f > a{float:right; font-size:14px; color:#76778c}
+#wrap .login_frm .input-group{margin-bottom:18px;}
+#wrap .login_frm .form-control{font-size:14px;}
+#wrap .login_frm .input-group .pwd2{width:44px;border-radius:0; border:0;}
+#wrap .login_frm .f_chk{margin-bottom:23px;}
+#wrap .login_frm .f_chk input{margin:0; margin-right:6px; position:relative; }
+#wrap .login_frm .btn-login{width:100%; font-size:14px; height:38px; border-radius:5px; box-shadow:0px 3px 10px #c1c4e7; background:#5156be; color:#fff; }
+#wrap .login_frm .btn-login:hover{background-color:#484ebe}
+#wrap .img_box{display:table-cell; width:70%; height:100vh; background:url(../images/alcon_main.jpg) left top no-repeat; background-size:cover; }
+
+@media (max-width:1200px) {
+#wrap .login_box{width:100%;}
+#wrap .login_box .logo{margin-bottom:100px;}
+#wrap .login_box .logo img{width:240px; height:66px; }
+#wrap .img_box{display:none}
+}
+@media (max-width:568px) {
+#wrap .login_box .logo{margin-bottom:60px;}
+#wrap .login_box .logo img{width:200px; height:55px; }
+}

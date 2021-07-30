@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>케어닥 - 케어코디지원</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="./css/swiper.css" />
+<link rel="stylesheet" href="./css/style.css" />
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/commons.js"></script>
+<script src="./js/care.js"></script>
+</head>
+<body id="main">
+<div id="wrap">
+<div id="fixedbg"></div>
+
+<header id="header">
+	<div class="inner">
+		<div class="logo">
+			<a href="/"><img src="./images/common/logo.png"/></a>
+		</div>
+		<div class="menu">
+			<a>시설 찾기</a>
+			<a>돌보미 찾기</a>
+			<a>서비스 소개</a>
+			<a>케어코디 지원</a>
+			<a>회사소개</a>
+			<a>나의 정보</a>
+		</div>
+		<a class="m_nav"><img src="./images/common/menu.svg"/></a>
+		<a class="m_close"><img src="./images/common/close.png"/></a>
+		<a class="m_member"><img src="./images/common/login.png" class="login"/></a>
+	</div>
+</header>
+
+<nav id="allMenu">
+	<div class="top">
+		<span class="txt no">로그인 후 서비스를 이용해주세요.</span>
+		<button type="button" class="log_btn">간편 로그인</button>
+	</div>
+	<div class="menu">
+		<div><a class="m">시설찾기</a></div>
+		<div><a class="m">케어코디</a></div>
+		<div><a class="m">서비스 소개</a></div>
+		<div><a class="m">케어코디 지원</a></div>
+		<div><a class="m">회사소개</a></div>
+		<div class="y"><a class="m">나의 정보</a>
+			<div class="sub">
+				<a>개인 정보 관리</a>
+				<a>시설 문의내역</a>
+			</div>
+		</div>
+	</div>
+	<div class="sns">
+		<a><img src="./images/common/blog.png"/></a>
+		<a><img src="./images/common/facebook.png"/></a>
+		<a><img src="./images/common/youtube.png"/></a>
+		<a><img src="./images/common/instagram.png"/></a>
+		<a><img src="./images/common/tistory.png"/></a>
+	</div>
+</nav>
+
+
+<section id="cody01">
+	<div class="inner">
+		<h2>존중이 만드는 돌봄문화</h2>
+		<p>간병인, 요양보호사분들이 <br/>
+		함께 웃을 수 있는 환경을 만들어 갑니다.</p>
+		<button type="button" class="btn btn-more" onclick="chat_open()">상담하기</button>
+	</div>
+</section>
+
+<section id="cody02">
+	<h2 class="tit">케어닥에서 찾는 맞춤 일자리</h2>
+	<div class="txts">
+		<div class="t t1">
+			<div class="t-item t-left"><img src="./images/sub/cody_01_1.png"/></div>
+			<div class="txt">내가 원하는 시간에 일할 수는 없을까?</div>
+			<div class="t-item t-right"><img src="./images/sub/cody_01_2.png"/></div>
+		</div>
+		<div class="t t2">
+			<div class="t-item t-left"><img src="./images/sub/cody_01_1.png"/></div>
+			<div class="txt">처음하는 일이라 누군가의 도움이 필요한데</div>
+			<div class="t-item t-right"><img src="./images/sub/cody_01_2.png"/></div>
+		</div>
+	</div>
+	<div class="jum">
+		<img src="./images/sub/cody_01_jum.png"/>
+	</div>
+	<div class="box">
+		<div class="logo"><img src="./images/sub/logow.png"/></div>
+		<p>돌보미분들의 편의를 위해<br/>
+		케어닥에서 관리해 드립니다.</p>
+	</div>
+</section>
+
+<section id="cody03">
+	<h2 class="tit">간병경력, 요양경력, 요양보호사 자격증 모두 없어도 <br/>케어닥에서 함께 할 수 있어요!</h2>
+	<div class="box">
+		<div class="col-w w1">
+			<div class="w">간병경력<span class="bin"></span><br/>요양경력<span class="bin"></span><br/>요양보호사자격증</div>
+		</div>
+		<div class="col-b b1">
+			<div class="b">케어닥 앱에서 일자리를 찾거나 재가방문요양센터에서 모두 근무할 수 있어요!</div>
+		</div>
+		<div class="col-w w1">
+			<div class="w">간병경력<span class="bin"></span><br/>요양경력<span class="bin"></span><br/><span class="gray">요양보호사자격증</span></div>
+		</div>
+		<div class="col-b b2">
+			<div class="b">케어닥 일자리 찾기 앱에서 바로 일자리를 찾을 수 있어요!</div>
+		</div>
+		<div class="col-w w1">
+			<div class="w"><span class="gray">간병경력</span><span class="bin"></span><br/><span class="gray">요양경력</span><span class="bin"></span><br/>요양보호사자격증</div>
+		</div>
+		<div class="col-b b1">
+			<div class="b">케어닥 직영 재가 방문요양 센터에서 근무할 수 있어요!</div>
+		</div>
+		<div class="col-w w1">
+			<div class="w">모두없음</div>
+		</div>
+		<div class="col-b w2">
+			<div class="b">케어닥 직영 재가 방문요양 센터에서 근무할 수 있어요!</div>
+		</div>
+	</div>
+</section>
+
+<section id="cody04">
+	<div class="inner">
+		<div class="col-txt col-m">
+			<h2>어르신 돌봄 전문가 <br/>케어코디 단계</h2>
+			<p>※ 단계별 일급이 다르며 <br/>일자리 개수가 다를 수 있습니다.</p>
+		</div>
+		<div class="col-one">
+			<div class="o">
+				<div class="one">인증된 돌보미</div>
+				<p>설명회 참석, 일대일 인터뷰, <br/>최소 경력 3개월</p>
+			</div>
+			<div class="o">
+				<div class="one">우수한 돌보미</div>
+				<p>기본 교육 이수</p>
+			</div>
+			<div class="o">
+				<div class="one">전문적 돌보미</div>
+				<p>전문 교육 이수</p>
+			</div>
+		</div>
+		<div class="col-txt col-pc">
+			<h2>어르신 돌봄 전문가 케어코디 단계</h2>
+			<p>※ 단계별 일급이 다르며 일자리 개수가 다를 수 있습니다.</p>
+		</div>
+	</div>
+</section>
+
+<section id="cody05">
+	<h2>케어닥의 돌보미 지원</h2>
+	<div class="set set-m swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="col-b b1">
+					<div class="in">
+						<div class="img"><img src="./images/sub/cody_03_icon1.png"/></div>
+						<h3>업계 최고 급여</h3>
+						<p>24시간 기준 일급 최대 13만 원의 급여 수준<br/>
+						(2020년 6월 기준 월 최고 급여 500만원)</p>
+					</div>
+				</div>
+				<div class="col-b b2">
+					<div class="in">
+						<div class="img"><img src="./images/sub/cody_03_icon2.png"/></div>
+						<h3>시간과 장소 선택 근무</h3>
+						<p>장소와 근무시간을 원하는대로 직접 선택할 수 있습니다.</p>
+					</div>
+				</div>
+				<div class="col-b b3">
+					<div class="in">
+						<div class="img"><img src="./images/sub/cody_03_icon3.png"/></div>
+						<h3>교육 기회 제공</h3>
+						<p>간병 전문 교육과 요양보호사 양성과정 교육기회를 제공합니다.</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="col-b b4">
+					<div class="in">
+						<div class="img"><img src="./images/sub/cody_03_icon4.png"/></div>
+						<h3>일한만큼만 지불</h3>
+						<p>일한 일자에 맞춰 회비와 보험료를 지불합니다.</p>
+					</div>
+				</div>
+				<div class="col-b b5">
+					<div class="in">
+						<div class="img"><img src="./images/sub/cody_03_icon5.png"/></div>
+						<h3>인센티브와 승진 기회</h3>
+						<p>우수 케어코디를 선별하여 수상하며 케어 매니저로 승진이 가능합니다.</p>
+					</div>
+				</div>
+				<div class="col-b b6">
+					<div class="in">
+						<div class="img"><img src="./images/sub/cody_03_icon6.png"/></div>
+						<h3>돌봄 키트 무상 제공</h3>
+						<p>돌봄 시 착용할 수 있는 유니폼(티셔츠, 앞치마)가 지급됩니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="swiper-pagination"></div>
+	<div class="set set-pc">
+		<div class="col-b b1">
+			<div class="in">
+				<div class="img"><img src="./images/sub/cody_03_icon1.png"/></div>
+				<h3>업계 최고 급여</h3>
+				<p>24시간 기준 일급 최대 13만 원의 급여 수준<br/>
+				(2020년 6월 기준 월 최고 급여 500만원)</p>
+			</div>
+		</div>
+		<div class="col-b b2">
+			<div class="in">
+				<div class="img"><img src="./images/sub/cody_03_icon2.png"/></div>
+				<h3>시간과 장소 선택 근무</h3>
+				<p>장소와 근무시간을 원하는대로 직접 선택할 수 있습니다.</p>
+			</div>
+		</div>
+		<div class="col-b b3">
+			<div class="in">
+				<div class="img"><img src="./images/sub/cody_03_icon3.png"/></div>
+				<h3>교육 기회 제공</h3>
+				<p>간병 전문 교육과 요양보호사 양성과정 교육기회를 제공합니다.</p>
+			</div>
+		</div>
+		<div class="col-b b4">
+			<div class="in">
+				<div class="img"><img src="./images/sub/cody_03_icon4.png"/></div>
+				<h3>일한만큼만 지불</h3>
+				<p>일한 일자에 맞춰 회비와 보험료를 지불합니다.</p>
+			</div>
+		</div>
+		<div class="col-b b5">
+			<div class="in">
+				<div class="img"><img src="./images/sub/cody_03_icon5.png"/></div>
+				<h3>인센티브와 승진 기회</h3>
+				<p>우수 케어코디를 선별하여 수상하며 케어 매니저로 승진이 가능합니다.</p>
+			</div>
+		</div>
+		<div class="col-b b6">
+			<div class="in">
+				<div class="img"><img src="./images/sub/cody_03_icon6.png"/></div>
+				<h3>돌봄 키트 무상 제공</h3>
+				<p>돌봄 시 착용할 수 있는 유니폼(티셔츠, 앞치마)가 지급됩니다.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<aside id="chat">
+	<div class="c_top">
+		<div class="r1">
+			<div class="logo"><img src="./images/sub/logow.png"/></div>
+			<a class="close" onclick="chat_close()"><img src="./images/sub/cody_close.png"/></a>
+		</div>
+		<div class="r2">
+			<div class="c_status">응답시간 보통</div>
+		</div>
+	</div>
+	<div class="c_con">
+		<dl class="to">
+			<dt><img src="./images/sub/btm_logo.png" class="logo"/></dt>
+			<dd>
+				안녕하세요. 대한민국 1등 실버케어 플랫폼 케어닥입니다.<br/><br/>
+				<strong>상담 가능 시간</strong><br/>
+				오전 10시부터 오후 6시까지<br/>월요일 ~ 일요일
+			</dd>
+		</dl>
+		<dl class="to">
+			<dt><img src="./images/sub/btm_logo.png" class="logo"/></dt>
+			<dd>
+				안녕하세요. 대한민국 1등 실버케어 플랫폼 케어닥입니다.<br/><br/>
+				<strong>상담 가능 시간</strong><br/>
+				오전 10시부터 오후 6시까지<br/>월요일 ~ 일요일
+			</dd>
+		</dl>
+	</div>
+	<div class="c_write">
+		<form>
+			<div class="f_group">
+				<input type="text" class="input-group">
+				<button type="button" class="btn btn-airplan"><img src="./images/sub/cody_plane.png"/></button>
+			</div>
+		</form>
+	</div>
+</aside>
+
+<footer id="footer">
+	<a class="top"><img src="./images/common/top.png"/></a>
+	<div class="inner">
+		<div class="flogo">
+			<a><img src="./images/common/foot_logo.png"/></a>
+		</div>
+		<div class="ftels">
+			<div class="left">
+				<div class="tels">케어닥 고객센터 1833 - 9861</div>
+				<div class="time">운영시간 : 오전 10:00 ~ 오후 18:00</div>
+			</div>
+			<div class="right">
+				<a><img src="./images/common/blog.png"/></a>
+				<a><img src="./images/common/facebook.png"/></a>
+				<a><img src="./images/common/youtube.png"/></a>
+				<a><img src="./images/common/instagram.png"/></a>
+				<a><img src="./images/common/tistory.png"/></a>
+			</div>
+		</div>
+		<div class="fmenu">
+			<a>제휴 및 제안</a><span>|</span><a>회사소개</a><br class="m_show"/><span class="m_hide">|</span><a>개인정보처리방침</a><span>|</span><a>이용약관</a>
+		</div>
+		<div class="copyright">
+			<div>(주)케어닥<span>|</span></div><div>대표 : 박재병<span>|</span></div><div>사업자등록번호 : 708-81-00933<span>|</span></div><div>개인정보관리책임자 : 최상훈<span>|</span></div><div>서울특별시 강남구 테헤란로 77길 11-10, 9층</div><br/>
+			<div>부산광역시 해운대구 센텀동로 41 부산정보산업진흥원 3층<span>|</span></div><div>고객문의 : 대표번호 1833-9861  운영시간 오전 10시 ~ 오후 6시)<span>|</span></div><div>ⓒ 2019 Caredoc Corp.</div>
+		</div>
+		<div class="w_box">주식회사 케어닥은 대한민국 비급여 의료시장에서 소비자와 돌보미(간병인)간의 정보 비대칭을 해소하여 투명한 비급여 돌봄(간병) 시장을 만들기 위해 어르신 돌보미
+		서비스를 제공하고 있습니다. 주식회사 케어닥은 직업소개업에 등록된 알선 업체(제2019-3220237-14-5-00055호)로 구인회원과 케어코디(돌보미)의 알선...더보기</div>
+	</div>
+</footer>
+
+</div>
+
+</body>
+</html>
