@@ -127,7 +127,7 @@ body#bg{background:#f6f6f6; }
 #footer .inner .copyright span{margin:0 14px; font-size:14px; display:inline-block; color:#dadada }
 #footer .inner .copyright div{display:inline-block; font-size:16px; line-height:22px; font-weight:600; color:#797979; }
 #footer .inner .copyright{padding:20px 0; margin-bottom:25px; border-bottom:1px solid #dadada;}
-#footer .inner .w_box{padding:16px 13px; height:80px; font-size:16px; line-height:24px; cursor:pointer; font-weight:600; overflow:hidden; color:#c0c0c0; background:#fff; border:1px solid #dadada; border-radius:3px; }
+#footer .inner .w_box{padding:16px 13px; height:auto; font-size:16px; line-height:24px; cursor:pointer; font-weight:600; overflow:hidden; color:#c0c0c0; background:#fff; border:1px solid #dadada; border-radius:3px; }
 #footer .inner .w_box a{color:#c0c0c0;}
 
 @media (max-width: 800px) {
@@ -148,7 +148,7 @@ body#bg{background:#f6f6f6; }
 #footer .inner .copyright{padding:15px 0;  margin-bottom: 15px;}
 #footer .inner .fmenu span,
 #footer .inner .copyright span{margin:0 6px;}
-#footer .inner .w_box{padding:13px 10px; font-size:14px;line-height:20px; }
+#footer .inner .w_box{padding:13px 10px; font-size:14px;line-height:20px;}
 }
 @media (max-width: 460px) {
 #footer .inner .fmenu a{font-size:14px; line-height:24px; }
@@ -157,7 +157,7 @@ body#bg{background:#f6f6f6; }
 #footer .inner .copyright div{font-size:12px; line-height:16px; word-break:keep-all;}
 #footer .inner .fmenu span,
 #footer .inner .copyright span{margin:0 4px;}
-#footer .inner .w_box{padding:10px 5px; font-size:13px;line-height:18px; }
+#footer .inner .w_box{padding:5px 5px; font-size:13px;line-height:18px;}
 }
 
 #chat{display:none; position:fixed; top:18%; left:5%; width:386px; border-radius:20px; overflow:hidden; z-index:10; background:#fff; }
