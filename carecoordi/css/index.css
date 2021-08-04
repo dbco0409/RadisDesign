@@ -65,6 +65,7 @@
 #main02 .sleft .btn_more{width:100%; padding:20px 0; font-size:20px; border-radius:15px; font-weight:800; color:#797979; background:#fff; border:1px solid #cdcdcd;}
 #main02 .sleft .btn_more img{width:21px; height:21px; margin-left:5px; position:relative; top:-3px; }
 #main02 .sleft .btn_more:hover{background:#eee; }
+#main02 .sleft .btn_more:focus{outline:none}
 
 @media (max-width: 1000px) {
 	#main02{width:90%; max-width:640px; }

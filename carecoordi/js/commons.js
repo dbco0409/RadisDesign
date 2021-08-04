@@ -40,6 +40,7 @@ $(document).ready(function() {
 $(window).resize(function(){
 	if($(window).width() < 768){
 		$("#header .m_nav, #header .m_member").show();
+		$("#allMenu, #header .m_close").hide();
 		$("#header .menu").hide();
 	}else{
 		$("#header .m_nav, #header .m_close, #header .m_member").hide();
