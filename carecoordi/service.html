@@ -66,7 +66,7 @@
 	<div class="inner">
 		<h2>믿고 선택하는 간병인</h2>
 		<p>소중한 가족을 위해 직접 선택하세요.</p>
-		<button type="button" class="btn btn-more">상담하기</button>
+		<button type="button" class="btn btn-more" onclick="chat_open()">상담하기</button>
 	</div>
 </section>
 
@@ -145,6 +145,44 @@
 		<div class="txt">소중한 가족을 위해 케어닥과 함께해주세요.</div>
 	</div>
 </section>
+
+<aside id="chat">
+	<div class="c_top">
+		<div class="r1">
+			<div class="logo"><img src="./images/sub/logow.png"/></div>
+			<a class="close" onclick="chat_close()"><img src="./images/sub/cody_close.png"/></a>
+		</div>
+		<div class="r2">
+			<div class="c_status">응답시간 보통</div>
+		</div>
+	</div>
+	<div class="c_con">
+		<dl class="to">
+			<dt><img src="./images/sub/btm_logo.png" class="logo"/></dt>
+			<dd>
+				안녕하세요. 대한민국 1등 실버케어 플랫폼 케어닥입니다.<br/><br/>
+				<strong>상담 가능 시간</strong><br/>
+				오전 10시부터 오후 6시까지<br/>월요일 ~ 일요일
+			</dd>
+		</dl>
+		<dl class="to">
+			<dt><img src="./images/sub/btm_logo.png" class="logo"/></dt>
+			<dd>
+				안녕하세요. 대한민국 1등 실버케어 플랫폼 케어닥입니다.<br/><br/>
+				<strong>상담 가능 시간</strong><br/>
+				오전 10시부터 오후 6시까지<br/>월요일 ~ 일요일
+			</dd>
+		</dl>
+	</div>
+	<div class="c_write">
+		<form>
+			<div class="f_group">
+				<input type="text" class="input-group">
+				<button type="button" class="btn btn-airplan"><img src="./images/sub/cody_plane.png"/></button>
+			</div>
+		</form>
+	</div>
+</aside>
 
 <footer id="footer">
 	<a class="top"><img src="./images/common/top.png"/></a>
